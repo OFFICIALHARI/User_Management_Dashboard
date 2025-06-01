@@ -4,7 +4,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { AddressSchema, AddressForm } from '@/utils/validationSchemas';
 import { Button } from '@/components/UI/button';
 import { Input } from '@/components/UI/input';
-import { Label } from '@/components/ui/label';
+import { Label } from '@/components/UI/label';
 
 interface Props {
   defaultValues: AddressForm;
