@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { BasicInfoSchema, BasicInfoForm } from '@/utils/validationSchemas';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/components/UI/input';
 import { Label } from '@/components/ui/label';
 
 interface Props {
