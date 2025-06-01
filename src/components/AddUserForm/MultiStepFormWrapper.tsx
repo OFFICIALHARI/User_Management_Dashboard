@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -6,7 +5,7 @@ import Step1BasicInfo from './Step1BasicInfo';
 import Step2Address from './Step2Address';
 import Step3Review from './Step3Review';
 import { BasicInfoForm, AddressForm } from '@/utils/validationSchemas';
-import { toast } from '@/components/ui/use-toast';
+import { toast } from '@/components/UI/use-toast';
 
 export interface FormData {
   basicInfo: BasicInfoForm;
